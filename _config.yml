@@ -1,4 +1,57 @@
-theme: minima
+# Site
 title: Learning GitHub Pages
-description: Learning how to build, configure, and publish websites with GitHub Pages.
+description: >-
+  A hands-on learning site for exploring GitHub Pages,
+  Jekyll, Markdown, themes, configuration, and static site deployment.
+
 author: XSaitoKungX
+lang: en
+timezone: Europe/Berlin
+
+# GitHub Pages
+url: "https://xsaitokungx.github.io"
+baseurl: "/skills-github-pages"
+repository: XSaitoKungX/skills-github-pages
+
+# Theme
+theme: minima
+
+# Minima
+show_excerpts: true
+
+minima:
+  date_format: "%B %-d, %Y"
+
+# Social
+github_username: XSaitoKungX
+
+# URLs
+permalink: pretty
+
+# Plugins supported by GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+# Exclude files that should not become part of the generated site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - LICENSE
