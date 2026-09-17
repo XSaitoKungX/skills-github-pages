@@ -4,10 +4,6 @@ title: Learning GitHub Pages
 description: A hands-on learning project for GitHub Pages, Jekyll, Markdown, and static site deployment.
 ---
 
-# Learning GitHub Pages
-
-> A hands-on project for learning how to build, configure, and publish a static website with **GitHub Pages**.
-
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-2ea44f?logo=github)](https://xsaitokungx.github.io/skills-github-pages/)
 ![Jekyll](https://img.shields.io/badge/Jekyll-Powered-CC0000?logo=jekyll&logoColor=white)
 ![GitHub Skills](https://img.shields.io/badge/GitHub-Skills-181717?logo=github)
