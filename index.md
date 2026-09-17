@@ -1,44 +1,53 @@
 ---
 title: Learning GitHub Pages
-description: Learning GitHub Pages
+description: A hands-on learning project for GitHub Pages, Jekyll, Markdown, and static site deployment.
 ---
 
-Welcome to my GitHub Pages learning site!
+# Learning GitHub Pages
 
-This page was created as part of the **GitHub Skills: GitHub Pages** exercise.
+> A hands-on project for learning how to build, configure, and publish a static website with **GitHub Pages**.
 
-## What I'm learning
-
-During this exercise, I'm learning how to:
-
-* Enable GitHub Pages for a repository
-* Publish a website directly from GitHub
-* Create pages using Markdown
-* Customize a homepage with `index.md`
-* Configure a GitHub Pages site
-* Work with branches and commits
-* See changes automatically deployed to the web
-
-## About GitHub Pages
-
-GitHub Pages makes it possible to turn a GitHub repository into a website.
-
-Changes committed to the repository can automatically be published and displayed on the live website.
-
-## Progress
-
-* [x] Create the repository
-* [x] Enable GitHub Pages
-* [x] Create a homepage
-* [x] Customize the site
-* [x] Complete the GitHub Skills exercise
-
-## Why I'm doing this
-
-The goal of this repository is to learn how GitHub Pages works through a practical, hands-on exercise.
-
-Every change to this page is another step toward understanding how websites can be hosted directly from GitHub.
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-2ea44f?logo=github)](https://xsaitokungx.github.io/skills-github-pages/)
+![Jekyll](https://img.shields.io/badge/Jekyll-Powered-CC0000?logo=jekyll&logoColor=white)
+![GitHub Skills](https://img.shields.io/badge/GitHub-Skills-181717?logo=github)
 
 ---
 
-Built while learning **GitHub Pages**.
+## About this project
+
+This repository started as part of the **GitHub Skills: GitHub Pages** exercise.
+
+The goal was to learn the fundamentals of publishing a website directly from a GitHub repository and understand how **GitHub Pages**, **Jekyll**, **Markdown**, and repository-based deployment work together.
+
+Instead of stopping after completing the exercise, this site also serves as a small playground for experimenting with GitHub Pages features.
+
+## What I learned
+
+Through this project, I learned how to:
+
+- Enable GitHub Pages for a repository
+- Deploy a website directly from a Git branch
+- Build pages using Markdown
+- Use YAML Front Matter
+- Configure Jekyll through `_config.yml`
+- Apply and configure a Jekyll theme
+- Work with GitHub Pages URLs and project paths
+- Use commits to trigger automatic deployments
+- Configure metadata and site information
+- Extend a basic GitHub Pages site beyond the initial exercise
+
+## How it works
+
+The basic workflow behind this site is simple:
+
+```text
+Edit files
+    ↓
+Commit changes
+    ↓
+Push to main
+    ↓
+GitHub Pages builds the site
+    ↓
+Website is deployed
+```
