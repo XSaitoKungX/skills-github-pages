@@ -31,7 +31,7 @@ Changes committed to the repository can automatically be published and displayed
 * [x] Enable GitHub Pages
 * [x] Create a homepage
 * [x] Customize the site
-* [ ] Complete the GitHub Skills exercise
+* [x] Complete the GitHub Skills exercise
 
 ## Why I'm doing this
 
