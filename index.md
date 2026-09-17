@@ -1,4 +1,5 @@
 ---
+layout: home
 title: Learning GitHub Pages
 description: A hands-on learning project for GitHub Pages, Jekyll, Markdown, and static site deployment.
 ---
