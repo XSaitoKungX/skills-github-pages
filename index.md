@@ -50,4 +50,80 @@ Push to main
 GitHub Pages builds the site
     ↓
 Website is deployed
+````
+
+The homepage itself is written in `index.md`, while global site configuration is stored in `_config.yml`.
+
+GitHub Pages uses **Jekyll** to transform the repository content into the final static website.
+
+## Project structure
+
+```text
+skills-github-pages/
+├── .github/
+├── _config.yml
+├── index.md
+├── README.md
+└── LICENSE
 ```
+
+### `index.md`
+
+Contains the content of this homepage.
+
+### `_config.yml`
+
+Contains global Jekyll and GitHub Pages configuration such as the site title, description, theme, plugins, and URL settings.
+
+### `.github/`
+
+Contains files used by the GitHub Skills exercise and GitHub automation.
+
+---
+
+## Exercise progress
+
+| Step                                | Status |
+| ----------------------------------- | :----: |
+| Create the repository               |    ✅   |
+| Enable GitHub Pages                 |    ✅   |
+| Create the homepage                 |    ✅   |
+| Configure Jekyll                    |    ✅   |
+| Customize the site                  |    ✅   |
+| Complete the GitHub Skills exercise |    ✅   |
+
+**Exercise completed.**
+
+The repository remains available as a reference and playground for further GitHub Pages experiments.
+
+## Technologies
+
+`GitHub Pages` · `Jekyll` · `Markdown` · `YAML` · `Git` · `GitHub Actions`
+
+## What's next?
+
+Although the original GitHub Skills exercise is complete, there is still plenty to explore:
+
+* Custom layouts
+* Additional pages
+* Blog posts with `_posts`
+* Custom SCSS/CSS
+* Navigation
+* SEO metadata
+* Open Graph metadata
+* Sitemap and RSS feeds
+* Custom domains
+* GitHub Actions based deployments
+
+---
+
+### Useful links
+
+* [View the live site](https://xsaitokungx.github.io/skills-github-pages/)
+* [View the repository](https://github.com/XSaitoKungX/skills-github-pages)
+* [GitHub Pages documentation](https://docs.github.com/pages)
+* [Jekyll documentation](https://jekyllrb.com/docs/)
+
+---
+
+<sub>Built while learning GitHub Pages, Jekyll, and static site deployment.</sub>
